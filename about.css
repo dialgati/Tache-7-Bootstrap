@@ -29,6 +29,7 @@
   
 @media (max-width:576px) {
     .carton {
+      margin-top: 60px;
         width: 70%;
         height: 300px;
     }
@@ -39,6 +40,9 @@
         background-attachment: fixed;
         width: 100%;
         height: 80vh;
+      }
+      .demete{
+        display: none;
       }
 }
 @media (max-width:768px) {
@@ -55,6 +59,9 @@
         background-size: cover;
         background-attachment: fixed;
         width: 100%;
-        height: 80vh;
+        height: 90vh;
+      }
+      .demete{
+        display: none;
       }
 }

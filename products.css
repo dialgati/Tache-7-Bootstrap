@@ -50,6 +50,9 @@
         position: relative;
         left: 0;
     }
+    .demete{
+        display: none;
+      }
 }
 .home .card-1 .btn-visit-us{ 
     background-color: #490909;
@@ -63,6 +66,17 @@
     .card-text-top{ 
         font-size: 18px;
         letter-spacing: 0px;
+    }
+    .fleur{
+        background: url(https://cdn.pixabay.com/photo/2016/04/15/08/04/strawberry-1330459_640.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        height: 230vh !important;
+      }
+    .demete{
+        display: none;
     }
 }
 .bg-color-our-promise{ 
@@ -94,5 +108,16 @@
         position: relative;
         left:80%;
         bottom: 50%;
+    }
+    .fleur{
+        background: url(https://cdn.pixabay.com/photo/2016/04/15/08/04/strawberry-1330459_640.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        height: 200vh;
+      }
+    .demete{
+        display: none ;
     }
 }
